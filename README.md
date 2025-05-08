@@ -10,6 +10,22 @@ A tool that allows you to calculate different types of **hashes** of a file.
 * sha512
 * all - md5,sha1,sha256,sha512
 
+## Usage
+
+```bash
+#####
+BUILD
+#####
+go build -o gohasher main.go && ./gohasher
+
+or 
+
+###
+RUN
+###
+go run main.go
+```
+
 ## Example
 
 ```bash
